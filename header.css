@@ -152,3 +152,80 @@
 
 /* <!-- End Final Project Work---Sabuj --> */
 
+
+
+
+
+/* <!-- Final assignment use html, css      and bootstrap  Header-->
+    <!-- Md Jashim Uddin
+    Roll-28 --> */
+
+
+
+
+
+
+#mfk{
+    box-sizing: border-box;
+    background-color: brown;
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 10px;
+    color: #fff;
+    padding: 12PX 1PX;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.product-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: rgb(225, 241, 235);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    padding: 10px;
+}
+      
+.product-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .product-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(45, 43, 43, 0.5);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .product-item:hover .overlay {
+    opacity: 1;
+  }
+  
+  .product-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .product-price {
+    font-size: 1.2rem;
+  }
+
+
+  #maincontent{
+    margin-top: 160px;
+  }    
