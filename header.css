@@ -167,7 +167,7 @@
 
 #mfk{
     box-sizing: border-box;
-    background-color: brown;
+    background-color: rgb(162, 230, 103);
     width: 50%;
     margin-left: 25%;
     border-radius: 10px;
@@ -181,7 +181,7 @@
     overflow: hidden;
     border-radius: 10px;
     margin: 10px;
-    background-color: rgb(225, 241, 235);
+    background-color: rgb(62, 189, 140);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
     padding: 10px;
